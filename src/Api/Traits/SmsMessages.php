@@ -1,9 +1,8 @@
 <?php
 
+namespace Solvari\Trengo\Api\Traits;
 
-namespace Api\Traits;
-
-use Api\Trengo;
+use Solvari\Trengo\Api\Trengo;
 
 trait SmsMessages
 {

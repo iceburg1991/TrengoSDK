@@ -1,10 +1,10 @@
 <?php
 
-namespace Solvari;
+namespace Solvari\Trengo;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use Api\Trengo;
+use Solvari\Trengo\Api\Trengo;
 use Solvari\WhatsApp\WhatsApp;
 
 class TrengoApiController extends Controller

@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Api\Traits;
+namespace Solvari\Trengo\Api\Traits;
 
-use Api\Trengo;
+use Solvari\Trengo\Api\Trengo;
 
 trait ContactGroup
 {

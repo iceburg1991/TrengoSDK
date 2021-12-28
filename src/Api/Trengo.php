@@ -1,24 +1,24 @@
 <?php
 
 
-namespace Api;
+namespace Solvari\Trengo\Api;
 
-use Api\Traits\ContactGroup;
-use Api\Traits\Contacts;
-use Api\Traits\CustomFields;
-use Api\Traits\FileUpload;
-use Api\Traits\Labels;
-use Api\Traits\Profiles;
-use Api\Traits\QuickActions;
-use Api\Traits\QuickReplies;
-use Api\Traits\Request;
-use Api\Traits\SmsMessages;
-use Api\Traits\Teams;
-use Api\Traits\Tickets;
-use Api\Traits\Users;
-use Api\Traits\Util;
-use Api\Traits\Webhooks;
-use Api\Traits\WhatsApp;
+use Solvari\Trengo\Api\Traits\ContactGroup;
+use Solvari\Trengo\Api\Traits\Contacts;
+use Solvari\Trengo\Api\Traits\CustomFields;
+use Solvari\Trengo\Api\Traits\FileUpload;
+use Solvari\Trengo\Api\Traits\Labels;
+use Solvari\Trengo\Api\Traits\Profiles;
+use Solvari\Trengo\Api\Traits\QuickActions;
+use Solvari\Trengo\Api\Traits\QuickReplies;
+use Solvari\Trengo\Api\Traits\Request;
+use Solvari\Trengo\Api\Traits\SmsMessages;
+use Solvari\Trengo\Api\Traits\Teams;
+use Solvari\Trengo\Api\Traits\Tickets;
+use Solvari\Trengo\Api\Traits\Users;
+use Solvari\Trengo\Api\Traits\Util;
+use Solvari\Trengo\Api\Traits\Webhooks;
+use Solvari\Trengo\Api\Traits\WhatsApp;
 
 
 /**

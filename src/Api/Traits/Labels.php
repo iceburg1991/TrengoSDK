@@ -1,9 +1,9 @@
 <?php
 
+namespace Solvari\Trengo\Api\Traits;
 
-namespace Api\Traits;
+use Solvari\Trengo\Api\Trengo;
 
-use Api\Trengo;
 trait Labels
 {
     abstract public function sendRequest(string $url, string $method = Trengo::GET, array $body = []);
