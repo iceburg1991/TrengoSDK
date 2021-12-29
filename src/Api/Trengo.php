@@ -3,6 +3,7 @@
 
 namespace Solvari\Trengo\Api;
 
+use GuzzleHttp\Client;
 use Solvari\Trengo\Api\Traits\ContactGroup;
 use Solvari\Trengo\Api\Traits\Contacts;
 use Solvari\Trengo\Api\Traits\CustomFields;
@@ -108,7 +109,7 @@ class Trengo
 
     public function __construct()
     {
-        $this->client = new CLient([
+        $this->client = new Client([
             'base_uri' => self::BASE_URI.self::VERSION,
             'headers' =>  [
                 'Authorization' => 'Bearer '.config('trengo.API_TOKEN')

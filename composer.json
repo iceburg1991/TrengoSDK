@@ -6,7 +6,8 @@
         "php": ">7.1.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "nesbot/carbon": "^2.0@dev",
-        "solvari/whatsapp": "dev-master"
+        "solvari/whatsapp": "dev-master",
+        "laravel/framework": "^7.0|^8.0"
     },
     "authors": [
         {
