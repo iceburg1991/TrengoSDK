@@ -112,7 +112,7 @@ class Trengo
         $this->client = new Client([
             'base_uri' => self::BASE_URI.self::VERSION,
             'headers' =>  [
-                'Authorization' => 'Bearer '.config('trengo.API_TOKEN')
+                'Authorization' => 'Bearer '.config('trengo.api_key')
             ]
         ]);
     }
