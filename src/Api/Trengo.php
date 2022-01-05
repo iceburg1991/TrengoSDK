@@ -72,7 +72,7 @@ class Trengo
      * Trengo api version and api url
      */
     CONST VERSION   = "v2/";
-    CONST BASE_URI  = 'https://app.trengo.eu/api/';
+    CONST BASE_URI  = 'https://app.trengo.com/api/';
 
     /*
      * Trengo tickets statusses
