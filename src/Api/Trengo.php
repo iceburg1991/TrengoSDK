@@ -72,7 +72,6 @@ class Trengo
      * Trengo api version and api url
      */
     CONST VERSION   = "v2/";
-    CONST BASE_URI  = 'https://app.trengo.com/api/';
 
     /*
      * Trengo tickets statusses
@@ -110,7 +109,7 @@ class Trengo
     public function __construct()
     {
         $this->client = new Client([
-            'base_uri' => self::BASE_URI.self::VERSION,
+            'base_uri' => config('trengo.api_base_url').self::VERSION,
             'headers' =>  [
                 'Authorization' => 'Bearer '.config('trengo.api_key')
             ]
